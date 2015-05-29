@@ -10,11 +10,12 @@
             <twinsen_removepaypalexpressrequiredagreementcheck>
                 <class>Twinsen_RemovePaypalExpressRequiredAgreementCheck_Helper</class>
             </twinsen_removepaypalexpressrequiredagreementcheck>
+            <checkout>
+                <rewrite>
+                    <data>Twinsen_RemovePaypalExpressRequiredAgreementCheck_Helper_Data</data>
+                </rewrite>
+            </checkout>
         </helpers>
-        <checkout>
-            <rewrite>
-                <data>Twinsen_RemovePaypalExpressRequiredAgreementCheck_Helper_Data</data>
-            </rewrite>
-        </checkout>
+
     </global>
 </config>

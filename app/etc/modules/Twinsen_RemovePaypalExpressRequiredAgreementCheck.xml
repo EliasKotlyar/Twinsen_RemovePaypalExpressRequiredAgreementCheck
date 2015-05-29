@@ -4,6 +4,7 @@
         <Twinsen_RemovePaypalExpressRequiredAgreementCheck>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>FireGento_MageSetup</depends>
         </Twinsen_RemovePaypalExpressRequiredAgreementCheck>
     </modules>
 </config>
