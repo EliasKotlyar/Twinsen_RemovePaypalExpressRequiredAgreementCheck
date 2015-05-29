@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Twinsen_RemovePaypalExpressRequiredAgreementCheck>
+            <version>1.0.0</version>
+        </Twinsen_RemovePaypalExpressRequiredAgreementCheck>
+    </modules>
+    <global>
+        <helpers>
+            <twinsen_removepaypalexpressrequiredagreementcheck>
+                <class>Twinsen_RemovePaypalExpressRequiredAgreementCheck_Helper</class>
+            </twinsen_removepaypalexpressrequiredagreementcheck>
+        </helpers>
+        <checkout>
+            <rewrite>
+                <data>Twinsen_RemovePaypalExpressRequiredAgreementCheck_Helper_Data</data>
+            </rewrite>
+        </checkout>
+    </global>
+</config>
